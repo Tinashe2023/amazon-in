@@ -147,19 +147,19 @@ const HomePage = () => {
           <h2 className="section-title">Shop by Category</h2>
           <div className="categories-grid">
             <Link to="/products" className="category-card">
-              <img src="/images/Iphone 15 Pro.jpg" alt="Electronics" className="category-image" />
+              <img src="images/Iphone 15 Pro.jpg" alt="Electronics" className="category-image" />
               <h3>Electronics</h3>
             </Link>
             <Link to="/products" className="category-card">
-              <img src="/images/Nike airforce.jpg" alt="Fashion" className="category-image" />
+              <img src="images/Nike airforce.jpg" alt="Fashion" className="category-image" />
               <h3>Fashion</h3>
             </Link>
             <Link to="/products" className="category-card">
-              <img src="/images/Office Chair.jpg" alt="Home & Furniture" className="category-image" />
+              <img src="images/Office Chair.jpg" alt="Home & Furniture" className="category-image" />
               <h3>Home & Furniture</h3>
             </Link>
             <Link to="/products" className="category-card">
-              <img src="/images/Yamaha Piano.jpg" alt="Musical Instruments" className="category-image" />
+              <img src="images/Yamaha Piano.jpg" alt="Musical Instruments" className="category-image" />
               <h3>Musical Instruments</h3>
             </Link>
           </div>
