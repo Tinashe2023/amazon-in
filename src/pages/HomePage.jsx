@@ -7,11 +7,11 @@ const HomePage = () => {
 
   // Hero carousel images
   const heroImages = [
-    '/images/Iphone 15 Pro.jpg',
-    '/images/Samsung Galaxy s25 ultra.jpg',
-    '/images/macbook(2023).jpg',
-    '/images/Sony Camera.jpg',
-    '/images/Samsung smart tv.jpg'
+    'images/Iphone 15 Pro.jpg',
+    'images/Samsung Galaxy s25 ultra.jpg',
+    'images/macbook(2023).jpg',
+    'images/Sony Camera.jpg',
+    'images/Samsung smart tv.jpg'
   ];
 
   // Auto-slide effect

@@ -6,7 +6,7 @@ export const products = [
         name: "iPhone 15 Pro Max",
         category: "Electronics",
         price: 134900,
-        image: "/images/Iphone 15 Pro.jpg",
+        image: "images/Iphone 15 Pro.jpg",
         initialStock: 18,
         description: "Latest iPhone with A17 Pro chip"
     },
@@ -15,7 +15,7 @@ export const products = [
         name: "Samsung Galaxy S25 Ultra",
         category: "Electronics",
         price: 124999,
-        image: "/images/Samsung Galaxy s25 ultra.jpg",
+        image: "images/Samsung Galaxy s25 ultra.jpg",
         initialStock: 22,
         description: "Flagship Samsung smartphone"
     },
@@ -24,7 +24,7 @@ export const products = [
         name: "MacBook Pro 2023",
         category: "Computers",
         price: 199900,
-        image: "/images/macbook(2023).jpg",
+        image: "images/macbook(2023).jpg",
         initialStock: 12,
         description: "Powerful laptop for professionals"
     },
@@ -33,7 +33,7 @@ export const products = [
         name: "Sony Professional Camera",
         category: "Electronics",
         price: 89999,
-        image: "/images/Sony Camera.jpg",
+        image: "images/Sony Camera.jpg",
         initialStock: 15,
         description: "High-end mirrorless camera"
     },
@@ -42,7 +42,7 @@ export const products = [
         name: "Samsung 55\" Smart TV",
         category: "Electronics",
         price: 54999,
-        image: "/images/Samsung smart tv.jpg",
+        image: "images/Samsung smart tv.jpg",
         initialStock: 20,
         description: "4K UHD Smart Television"
     },
@@ -51,7 +51,7 @@ export const products = [
         name: "Apple AirPods Pro",
         category: "Electronics",
         price: 24900,
-        image: "/images/apple ear pods.jpg",
+        image: "images/apple ear pods.jpg",
         initialStock: 25,
         description: "Wireless earbuds with ANC"
     },
@@ -60,7 +60,7 @@ export const products = [
         name: "iPhone 13 Pro",
         category: "Electronics",
         price: 89900,
-        image: "/images/Iphone 13 Pro.jpg",
+        image: "images/Iphone 13 Pro.jpg",
         initialStock: 20,
         description: "Previous generation iPhone"
     },
@@ -69,7 +69,7 @@ export const products = [
         name: "Samsung Galaxy S24",
         category: "Electronics",
         price: 79999,
-        image: "/images/Samsung Galaxy s24.jpg",
+        image: "images/Samsung Galaxy s24.jpg",
         initialStock: 25,
         description: "Latest Samsung flagship"
     },
@@ -80,7 +80,7 @@ export const products = [
         name: "Nike Air Force 1",
         category: "Fashion",
         price: 7995,
-        image: "/images/Nike airforce.jpg",
+        image: "images/Nike airforce.jpg",
         initialStock: 30,
         description: "Classic sneakers in white"
     },
@@ -89,7 +89,7 @@ export const products = [
         name: "Adidas Sneakers",
         category: "Fashion",
         price: 6499,
-        image: "/images/Addidas sneakers.jpg",
+        image: "images/Addidas sneakers.jpg",
         initialStock: 12,
         description: "Comfortable sports shoes"
     },
@@ -98,7 +98,7 @@ export const products = [
         name: "Nike Sports Shoes",
         category: "Fashion",
         price: 8999,
-        image: "/images/Nike sports shoes.jpg",
+        image: "images/Nike sports shoes.jpg",
         initialStock: 28,
         description: "High-performance athletic shoes"
     },
@@ -107,7 +107,7 @@ export const products = [
         name: "Women Kitten Heels",
         category: "Fashion",
         price: 3999,
-        image: "/images/Kitten heels(women shoes(grey).jpg",
+        image: "images/Kitten heels(women shoes(grey).jpg",
         initialStock: 22,
         description: "Elegant grey heels for women"
     },
@@ -118,7 +118,7 @@ export const products = [
         name: "Prada Milano Purse",
         category: "Bags",
         price: 85000,
-        image: "/images/Prada Milano-women purse.jpg",
+        image: "images/Prada Milano-women purse.jpg",
         initialStock: 18,
         description: "Designer luxury handbag"
     },
@@ -127,7 +127,7 @@ export const products = [
         name: "Gucci Black Purse",
         category: "Bags",
         price: 92000,
-        image: "/images/Gucci black women purse.jpg",
+        image: "images/Gucci black women purse.jpg",
         initialStock: 12,
         description: "Premium Gucci handbag"
     },
@@ -136,7 +136,7 @@ export const products = [
         name: "Designer Women Bag",
         category: "Bags",
         price: 45000,
-        image: "/images/Women bag(designer).jpg",
+        image: "images/Women bag(designer).jpg",
         initialStock: 20,
         description: "Stylish designer handbag"
     },
@@ -145,7 +145,7 @@ export const products = [
         name: "Women Handbag Orange",
         category: "Bags",
         price: 12999,
-        image: "/images/Women Handbag(orange).jpg",
+        image: "images/Women Handbag(orange).jpg",
         initialStock: 25,
         description: "Vibrant orange handbag"
     },
@@ -154,7 +154,7 @@ export const products = [
         name: "YSL Women Purse",
         category: "Bags",
         price: 78000,
-        image: "/images/Women Purse(YSL).jpg",
+        image: "images/Women Purse(YSL).jpg",
         initialStock: 15,
         description: "Yves Saint Laurent luxury purse"
     },
@@ -165,7 +165,7 @@ export const products = [
         name: "Versace Eros Perfume",
         category: "Beauty",
         price: 8999,
-        image: "/images/Versace eros-perfume.jpg",
+        image: "images/Versace eros-perfume.jpg",
         initialStock: 30,
         description: "Premium men's fragrance"
     },
@@ -174,7 +174,7 @@ export const products = [
         name: "Bleu De Chanel Perfume",
         category: "Beauty",
         price: 12500,
-        image: "/images/Bleu De Chanel-perfume.jpg",
+        image: "images/Bleu De Chanel-perfume.jpg",
         initialStock: 22,
         description: "Iconic Chanel fragrance"
     },
@@ -183,7 +183,7 @@ export const products = [
         name: "Coco Noir Chanel",
         category: "Beauty",
         price: 14999,
-        image: "/images/Coco Noir Chanel-perfume.jpg",
+        image: "images/Coco Noir Chanel-perfume.jpg",
         initialStock: 18,
         description: "Elegant women's perfume"
     },
@@ -192,7 +192,7 @@ export const products = [
         name: "Alya Skin Face Oil",
         category: "Beauty",
         price: 2499,
-        image: "/images/Alya skin-face oil.jpg",
+        image: "images/Alya skin-face oil.jpg",
         initialStock: 15,
         description: "Nourishing face oil"
     },
@@ -201,7 +201,7 @@ export const products = [
         name: "Necessaire Body Lotion",
         category: "Beauty",
         price: 3999,
-        image: "/images/Necessaire body lotion.jpg",
+        image: "images/Necessaire body lotion.jpg",
         initialStock: 12,
         description: "Luxury body moisturizer"
     },
@@ -212,7 +212,7 @@ export const products = [
         name: "Yamaha Piano",
         category: "Musical Instruments",
         price: 125000,
-        image: "/images/Yamaha Piano.jpg",
+        image: "images/Yamaha Piano.jpg",
         initialStock: 12,
         description: "Professional digital piano"
     },
@@ -221,7 +221,7 @@ export const products = [
         name: "Acoustic Guitar",
         category: "Musical Instruments",
         price: 12500,
-        image: "/images/acoustic guitar.jpg",
+        image: "images/acoustic guitar.jpg",
         initialStock: 22,
         description: "Professional acoustic guitar"
     },
@@ -230,7 +230,7 @@ export const products = [
         name: "Saxophone Gold",
         category: "Musical Instruments",
         price: 45000,
-        image: "/images/Saxophone-gold.jpg",
+        image: "images/Saxophone-gold.jpg",
         initialStock: 15,
         description: "Premium gold saxophone"
     },
@@ -239,7 +239,7 @@ export const products = [
         name: "Violin",
         category: "Musical Instruments",
         price: 18500,
-        image: "/images/violin.jpg",
+        image: "images/violin.jpg",
         initialStock: 20,
         description: "Classical violin instrument"
     },
@@ -248,7 +248,7 @@ export const products = [
         name: "Trumpet",
         category: "Musical Instruments",
         price: 22000,
-        image: "/images/trumpet.jpg",
+        image: "images/trumpet.jpg",
         initialStock: 18,
         description: "Professional brass trumpet"
     },
@@ -259,7 +259,7 @@ export const products = [
         name: "Rolex Luxury Watch",
         category: "Accessories",
         price: 450000,
-        image: "/images/Rolex analog luxury watch-men.jpg",
+        image: "images/Rolex analog luxury watch-men.jpg",
         initialStock: 2,
         description: "Premium analog watch for men"
     },
@@ -268,7 +268,7 @@ export const products = [
         name: "Designer Sunglasses",
         category: "Accessories",
         price: 5999,
-        image: "/images/Aviator sunglasses.jpg",
+        image: "images/Aviator sunglasses.jpg",
         initialStock: 15,
         description: "Aviator style sunglasses"
     },
@@ -277,7 +277,7 @@ export const products = [
         name: "Luxury Watch Grey",
         category: "Accessories",
         price: 89000,
-        image: "/images/Luxury watch(grey).jpg",
+        image: "images/Luxury watch(grey).jpg",
         initialStock: 15,
         description: "Designer grey watch"
     },
@@ -286,7 +286,7 @@ export const products = [
         name: "Diamond Bracelet",
         category: "Jewelry",
         price: 125000,
-        image: "/images/diamond bracelet.jpg",
+        image: "images/diamond bracelet.jpg",
         initialStock: 12,
         description: "Elegant diamond bracelet"
     },
@@ -295,7 +295,7 @@ export const products = [
         name: "Gold Earrings",
         category: "Jewelry",
         price: 45000,
-        image: "/images/gold earings.jpg",
+        image: "images/gold earings.jpg",
         initialStock: 20,
         description: "22K gold earrings"
     },
@@ -304,7 +304,7 @@ export const products = [
         name: "Diamond Necklace",
         category: "Jewelry",
         price: 185000,
-        image: "/images/diamond necklace.jpg",
+        image: "images/diamond necklace.jpg",
         initialStock: 2,
         description: "Stunning diamond necklace"
     },
@@ -315,7 +315,7 @@ export const products = [
         name: "Office Chair Premium",
         category: "Furniture",
         price: 15999,
-        image: "/images/Office Chair.jpg",
+        image: "images/Office Chair.jpg",
         initialStock: 12,
         description: "Ergonomic office chair"
     },
@@ -324,7 +324,7 @@ export const products = [
         name: "Green Home Couch",
         category: "Furniture",
         price: 45000,
-        image: "/images/Green home couch.jpg",
+        image: "images/Green home couch.jpg",
         initialStock: 18,
         description: "Comfortable living room couch"
     },
@@ -333,7 +333,7 @@ export const products = [
         name: "Yellow Couch",
         category: "Furniture",
         price: 38000,
-        image: "/images/yellow couch.jpg",
+        image: "images/yellow couch.jpg",
         initialStock: 15,
         description: "Vibrant yellow sofa"
     },
@@ -342,7 +342,7 @@ export const products = [
         name: "Hanging Room Lamp",
         category: "Home Decor",
         price: 4999,
-        image: "/images/hanging room lamp.jpg",
+        image: "images/hanging room lamp.jpg",
         initialStock: 30,
         description: "Modern ceiling lamp"
     },
@@ -351,7 +351,7 @@ export const products = [
         name: "Sealing Warm Lights",
         category: "Home Decor",
         price: 3499,
-        image: "/images/Sealing warm lights.jpg",
+        image: "images/Sealing warm lights.jpg",
         initialStock: 12,
         description: "Warm LED ceiling lights"
     },
@@ -362,7 +362,7 @@ export const products = [
         name: "LG Washing Machine",
         category: "Home Appliances",
         price: 32999,
-        image: "/images/Washing Machine.jpg",
+        image: "images/Washing Machine.jpg",
         initialStock: 15,
         description: "Fully automatic washing machine"
     },
@@ -371,7 +371,7 @@ export const products = [
         name: "Air Conditioner",
         category: "Home Appliances",
         price: 42000,
-        image: "/images/Air Conditioner.jpg",
+        image: "images/Air Conditioner.jpg",
         initialStock: 20,
         description: "1.5 Ton split AC"
     },
@@ -380,7 +380,7 @@ export const products = [
         name: "Water Purifier",
         category: "Home Appliances",
         price: 18999,
-        image: "/images/Water Purifier.jpg",
+        image: "images/Water Purifier.jpg",
         initialStock: 25,
         description: "RO water purification system"
     },
@@ -391,7 +391,7 @@ export const products = [
         name: "Black Designer Suit",
         category: "Men's Fashion",
         price: 25000,
-        image: "/images/black designer suit-men.jpg",
+        image: "images/black designer suit-men.jpg",
         initialStock: 18,
         description: "Premium men's suit"
     },
@@ -400,7 +400,7 @@ export const products = [
         name: "Grey Men Blazer",
         category: "Men's Fashion",
         price: 12999,
-        image: "/images/men grey blazer.jpg",
+        image: "images/men grey blazer.jpg",
         initialStock: 22,
         description: "Formal grey blazer"
     },
@@ -409,7 +409,7 @@ export const products = [
         name: "Blue Denim Jacket",
         category: "Men's Fashion",
         price: 3999,
-        image: "/images/blue denim jacket.jpg",
+        image: "images/blue denim jacket.jpg",
         initialStock: 30,
         description: "Classic denim jacket"
     },
@@ -420,7 +420,7 @@ export const products = [
         name: "Kids Toy Cars",
         category: "Toys",
         price: 1999,
-        image: "/images/kids toys-cars.jpg",
+        image: "images/kids toys-cars.jpg",
         initialStock: 20,
         description: "Set of toy cars for kids"
     },
@@ -429,7 +429,7 @@ export const products = [
         name: "Baby Diapers",
         category: "Baby Care",
         price: 1299,
-        image: "/images/baby diapers.jpg",
+        image: "images/baby diapers.jpg",
         initialStock: 25,
         description: "Pack of baby diapers"
     },
@@ -440,7 +440,7 @@ export const products = [
         name: "Cookware Set Black",
         category: "Kitchen",
         price: 8999,
-        image: "/images/cookware-black.jpg",
+        image: "images/cookware-black.jpg",
         initialStock: 25,
         description: "Non-stick cookware set"
     },
@@ -449,7 +449,7 @@ export const products = [
         name: "Cookware Set Red",
         category: "Kitchen",
         price: 7999,
-        image: "/images/cookware-red.jpg",
+        image: "images/cookware-red.jpg",
         initialStock: 28,
         description: "Red ceramic cookware"
     },
@@ -460,7 +460,7 @@ export const products = [
         name: "Hair Dryer",
         category: "Personal Care",
         price: 2499,
-        image: "/images/hair dryer.jpg",
+        image: "images/hair dryer.jpg",
         initialStock: 12,
         description: "Professional hair dryer"
     },
@@ -469,8 +469,9 @@ export const products = [
         name: "5x7 Carpet",
         category: "Home Decor",
         price: 6999,
-        image: "/images/5ft by 7ft carpet.jpg",
+        image: "images/5ft by 7ft carpet.jpg",
         initialStock: 20,
         description: "Premium quality carpet"
     }
 ];
+
