@@ -1,29 +1,29 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Amazon India - Shopping Experience (Demo)</title>
-    
-    <!-- Google Analytics GA4 Placeholder - Add your tracking ID here -->
-    <script>
-      // Placeholder for GA4 gtag.js
-      // When ready, add your GA4 tracking code here
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      // gtag('config', 'GA_MEASUREMENT_ID'); // Uncomment and add your ID
-      
-      // For now, we'll log events to console for testing
-      window.gtag = function() {
-        console.log('GA4 Event:', arguments);
-        dataLayer.push(arguments);
-      };
-    </script>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amazon India - Demo Site for Web Analytics</title>
+  <meta name="description" content="Amazon India demo website for Google Analytics GA4 tracking demonstration" />
+
+  <!-- Google Analytics GA4 Placeholder -->
+  <script>
+    // GA4 placeholder - replace YOUR_MEASUREMENT_ID with actual GA4 ID
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'YOUR_MEASUREMENT_ID');
+
+    // Log events to console for testing
+    console.log('GA4 Tracking initialized (demo mode)');
+  </script>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+
 </html>
