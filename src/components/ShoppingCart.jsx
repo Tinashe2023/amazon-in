@@ -1,6 +1,7 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useCart } from '../context/CartContext';
 import PaymentGateway from './PaymentGateway';
+import { trackViewCart, trackRemoveFromCart, trackBeginCheckout } from '../utils/analytics';
 import './ShoppingCart.css';
 
 const ShoppingCart = () => {
@@ -14,6 +15,23 @@ const ShoppingCart = () => {
     } = useCart();
 
     const [showPayment, setShowPayment] = useState(false);
+
+    // Track when cart is viewed
+    useEffect(() => {
+        if (isCartOpen && cartItems.length > 0) {
+            trackViewCart(cartItems, getCartTotal());
+        }
+    }, [isCartOpen, cartItems, getCartTotal]);
+
+    const handleRemoveFromCart = (item) => {
+        trackRemoveFromCart(item, item.quantity);
+        removeFromCart(item.id);
+    };
+
+    const handleCheckout = () => {
+        trackBeginCheckout(cartItems, getCartTotal());
+        setShowPayment(true);
+    };
 
     const formatPrice = (price) => {
         return new Intl.NumberFormat('en-IN', {
@@ -80,7 +98,7 @@ const ShoppingCart = () => {
                                             </div>
 
                                             <button
-                                                onClick={() => removeFromCart(item.id)}
+                                                onClick={() => handleRemoveFromCart(item)}
                                                 className="remove-btn"
                                             >
                                                 Remove
@@ -101,7 +119,7 @@ const ShoppingCart = () => {
                         </div>
                         <button
                             className="btn btn-primary btn-lg"
-                            onClick={() => setShowPayment(true)}
+                            onClick={handleCheckout}
                         >
                             Proceed to Checkout
                         </button>

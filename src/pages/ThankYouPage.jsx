@@ -1,20 +1,22 @@
-import { Link } from 'react-router-dom';
-import { useEffect, useState } from 'react';
+import { Link, useLocation } from 'react-router-dom';
+import { useEffect } from 'react';
 import { useCart } from '../context/CartContext';
+import { trackPurchase } from '../utils/analytics';
 import './ThankYouPage.css';
 
 const ThankYouPage = () => {
-    const { cartItems, getCartTotal, clearCart } = useCart();
-    const [orderItems, setOrderItems] = useState([]);
-    const [orderTotal, setOrderTotal] = useState(0);
+    const { clearCart, getCartTotal } = useCart(); // Keep getCartTotal for formatting, but actual total comes from location.state
+    const location = useLocation();
+    const cartItems = location.state?.cartItems || [];
+    const total = location.state?.total || 0;
 
-    // Capture cart items and clear cart when page loads
+    // Track purchase completion and clear cart
     useEffect(() => {
         if (cartItems.length > 0) {
-            setOrderItems([...cartItems]);
-            setOrderTotal(getCartTotal());
-            // Clear cart after capturing the order
-            setTimeout(() => clearCart(), 100);
+            const transactionId = `TXN-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`;
+            trackPurchase(cartItems, total, transactionId);
+            // Clear cart after tracking the purchase
+            clearCart();
         }
     }, []);
 

@@ -1,8 +1,9 @@
-import { useMemo } from 'react';
+import { useMemo, useEffect } from 'react';
 import { products } from '../data/products';
 import { useSearch } from '../context/SearchContext';
 import ProductCard from '../components/ProductCard';
 import ShoppingCart from '../components/ShoppingCart';
+import { trackSearch } from '../utils/analytics';
 import './ProductsPage.css';
 
 const ProductsPage = () => {
@@ -21,6 +22,13 @@ const ProductsPage = () => {
             product.description.toLowerCase().includes(query)
         );
     }, [searchQuery]);
+
+    // Track search events
+    useEffect(() => {
+        if (searchQuery.trim()) {
+            trackSearch(searchQuery, filteredProducts.length);
+        }
+    }, [searchQuery, filteredProducts.length]);
 
     return (
         <div className="products-page">
