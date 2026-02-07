@@ -53,11 +53,11 @@ const ThankYouPage = () => {
                     </div>
 
                     {/* Order Summary */}
-                    {orderItems.length > 0 && (
+                    {cartItems.length > 0 && (
                         <div className="order-summary-section">
                             <h2>Order Summary</h2>
                             <div className="order-items">
-                                {orderItems.map(item => (
+                                {cartItems.map(item => (
                                     <div key={item.id} className="order-item">
                                         <img src={item.image} alt={item.name} />
                                         <div className="order-item-details">
@@ -70,7 +70,7 @@ const ThankYouPage = () => {
                             </div>
                             <div className="order-total">
                                 <span>Total Amount:</span>
-                                <span className="total-price">{formatPrice(orderTotal)}</span>
+                                <span className="total-price">{formatPrice(total)}</span>
                             </div>
                         </div>
                     )}

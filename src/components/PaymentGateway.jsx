@@ -27,8 +27,14 @@ const PaymentGateway = ({ onClose, total }) => {
 
         // Simulate payment processing
         setTimeout(() => {
+            // Navigate with cart data BEFORE clearing
+            navigate('/thank-you', {
+                state: {
+                    cartItems: [...cartItems],
+                    total: total
+                }
+            });
             clearCart();
-            navigate('/thank-you');
             onClose();
         }, 2000);
     };
