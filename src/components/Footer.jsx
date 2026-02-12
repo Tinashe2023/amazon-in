@@ -5,15 +5,7 @@ const Footer = () => {
         <footer className="footer">
             <div className="container">
                 <div className="footer-content">
-                    {/* Academic Disclaimer */}
-                    <div className="disclaimer">
-                        <p className="disclaimer-text">
-                            ⚠️ <strong>Academic Disclaimer:</strong> This website is a non-commercial academic prototype
-                            created solely for learning web analytics. No real transactions occur on this platform.
-                        </p>
-                    </div>
-
-                    {/* Footer Links (Simulated) */}
+                    {/* Footer Links */}
                     <div className="footer-links">
                         <div className="footer-column">
                             <h4>Get to Know Us</h4>
@@ -45,7 +37,7 @@ const Footer = () => {
 
                     {/* Copyright */}
                     <div className="footer-bottom">
-                        <p>&copy; 2026 Amazon India Demo. Educational Project for Web Analytics.</p>
+                        <p>&copy; 2026 Amazon India. All rights reserved.</p>
                     </div>
                 </div>
             </div>

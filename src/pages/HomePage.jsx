@@ -47,10 +47,9 @@ const HomePage = () => {
                   <div className="hero-content">
                     <h1 className="hero-title">
                       Amazon India – Shopping Experience
-                      <span className="demo-badge">(Demo)</span>
                     </h1>
                     <p className="hero-subtitle">
-                      An academic prototype for demonstrating Google Analytics GA4 tracking
+                      Discover amazing products at unbeatable prices
                     </p>
                     <Link to="/products" className="btn btn-primary btn-lg hero-cta">
                       Browse Products
@@ -79,20 +78,12 @@ const HomePage = () => {
         </div>
       </section>
 
-      {/* Disclaimer Banner */}
-      <section className="disclaimer-banner">
-        <div className="container">
-          <p>
-            ⚠️ This is a non-commercial academic website created solely for learning web analytics.
-            No real payments or transactions occur on this platform.
-          </p>
-        </div>
-      </section>
+
 
       {/* Features Section */}
       <section className="features">
         <div className="container">
-          <h2 className="section-title">Demo Features</h2>
+          <h2 className="section-title">Features</h2>
           <div className="features-grid">
             <div className="feature-card">
               <div className="feature-icon">

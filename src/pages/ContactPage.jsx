@@ -43,13 +43,8 @@ const ContactPage = () => {
                     <div className="contact-header">
                         <h1>Contact Us</h1>
                         <p className="contact-subtitle">
-                            Have questions about this demo? Send us a message!
+                            Have questions? We'd love to hear from you!
                         </p>
-                        <div className="demo-notice">
-                            <p>
-                                ⚠️ This is a demo contact form. Submissions are not actually sent anywhere.
-                            </p>
-                        </div>
                     </div>
 
                     <div className="contact-form-container">
@@ -59,7 +54,7 @@ const ContactPage = () => {
                                     <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
                                     <polyline points="22 4 12 14.01 9 11.01" />
                                 </svg>
-                                <p>Thank you! Your message has been received (Demo).</p>
+                                <p>Thank you! Your message has been received.</p>
                             </div>
                         )}
 
@@ -130,7 +125,7 @@ const ContactPage = () => {
                                 </svg>
                             </div>
                             <h3>Address</h3>
-                            <p>Demo Location<br />Academic Project</p>
+                            <p>Mumbai, Maharashtra<br />India</p>
                         </div>
 
                         <div className="info-card">
@@ -141,7 +136,7 @@ const ContactPage = () => {
                                 </svg>
                             </div>
                             <h3>Email</h3>
-                            <p>demo@amazon-india.edu</p>
+                            <p>support@amazon-india.com</p>
                         </div>
 
                         <div className="info-card">
@@ -151,7 +146,7 @@ const ContactPage = () => {
                                 </svg>
                             </div>
                             <h3>Phone</h3>
-                            <p>+91 (Demo) 123-4567</p>
+                            <p>+91 1800-123-4567</p>
                         </div>
                     </div>
                 </div>

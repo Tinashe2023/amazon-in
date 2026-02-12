@@ -1,4 +1,4 @@
-// Product catalog for Amazon India Demo
+// Product catalog for Amazon India
 export const products = [
     // Electronics
     {

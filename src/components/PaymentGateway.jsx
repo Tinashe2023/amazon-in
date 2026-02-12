@@ -44,7 +44,7 @@ const PaymentGateway = ({ onClose, total }) => {
             <div className="overlay" onClick={onClose}></div>
             <div className="payment-modal">
                 <div className="payment-header">
-                    <h2>Simulated Payment Gateway</h2>
+                    <h2>Payment Gateway</h2>
                     <button className="close-btn" onClick={onClose}>
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                             <line x1="18" y1="6" x2="6" y2="18" />
@@ -54,9 +54,7 @@ const PaymentGateway = ({ onClose, total }) => {
                 </div>
 
                 <div className="payment-body">
-                    <div className="payment-disclaimer">
-                        <p>⚠️ This is a simulated payment gateway. No real transaction will occur.</p>
-                    </div>
+
 
                     <form onSubmit={handlePlaceOrder}>
                         {/* Payment Method Selection */}
@@ -195,7 +193,7 @@ const PaymentGateway = ({ onClose, total }) => {
                                     Processing...
                                 </>
                             ) : (
-                                'Place Order (Demo)'
+                                'Place Order'
                             )}
                         </button>
                     </form>

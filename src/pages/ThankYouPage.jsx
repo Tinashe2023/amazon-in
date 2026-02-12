@@ -42,15 +42,7 @@ const ThankYouPage = () => {
 
                     {/* Success Message */}
                     <h1 className="success-title">Order Placed Successfully!</h1>
-                    <p className="success-subtitle">(Demo - No Real Transaction Occurred)</p>
-
-                    {/* Disclaimer */}
-                    <div className="demo-disclaimer">
-                        <p>
-                            ⚠️ <strong>Important:</strong> This was a simulated order. No actual payment was processed,
-                            and no products will be shipped. This is an academic demonstration only.
-                        </p>
-                    </div>
+                    <p className="success-subtitle">Thank you for your purchase!</p>
 
                     {/* Order Summary */}
                     {cartItems.length > 0 && (
